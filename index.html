@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+    <title>Véletlenszerű bestia-előfordulások</title>
+</head>
+<body>
+    <section id="container">
+        <div id="calculator" >
+           <form id="MonsterCalc" action="">
+               <label for="location">Választ vidéket/helyet <br> És dobj d100-al!</label>
+               <select name="location" id="location">
+                <option value="mersekeltovierdo">Mérsékelt övi erdő</option>
+                <option value="dzsungel">Dzsungel</option>
+                <option value="mocsar">Mocsár</option>
+                <option value="pusztasagsztyeppe">Pusztaság,sztyeppe</option>
+              </select>
+              <input  type="text" name="Dnumber" id="Dnumber">
+              <input onclick="myFunction()" type="button" value="Lássuk!" class="formbutton">
+           </form>
+           <!-- <div class="clean">
+            <span onclick="deletFunction()" class="button">Törlés</span>
+           </div> -->
+           
+        
+           <div class="textArea">
+            <span id="bestName"></span>
+           </div>
+        </div>
+        
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
